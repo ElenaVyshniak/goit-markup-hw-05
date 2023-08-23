@@ -277,8 +277,6 @@ button {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--ocean);
-  cursor: pointer;
-  border: 1px solid transparent;
 }
 
 .order-servise {
@@ -874,11 +872,11 @@ link:hover.overlay-text {
 }
 
 .modal-form-input:focus {
-  border-color: 1px solid var(--iris, #4d5ae5);
+  border-color: var(--iris, #4d5ae5);
 }
 
 .modal-form-input:focus + .modal-form-icon {
-  fill: var(--social-blue-normal);
+  fill: var(--iris);
 }
 
 .modal-form-icon {
@@ -909,29 +907,29 @@ link:hover.overlay-text {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-comment:focus {
-  border-color: var(--social-blue-normal);
+  color: var(--iris);
 }
 .modal-form-comment:focus::placeholder {
-  color: var(--social-blue-normal);
+  color: var(--iris);
 }
-.modal-form-ppolicy {
-  display: block;
-  color: var(--modal-form-lable);
+.modal-form-policy {
   font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
-.modal-form-desc-policy {
-  color: var(--social-blue-normal);
-  text-decoration-line: underline;
+.modal-form-desk-policy {
+  color: #4d5ae5;
 }
 
 .modal-form-field-checkbox {
   margin-bottom: 24px;
 }
 
-.modal-form-desc {
+.modal-form-desk {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -939,17 +937,32 @@ link:hover.overlay-text {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
   fill: transparent;
 }
-.modal-form-checkbox:checked + .modal-form-ppolicy > .modal-form-desc {
-  background-color: var(--secondary-blue-color);
+.modal-form-checkbox:checked + .modal-form-policy > .modal-form-desk {
+  background-color: var(--ocean, rgba(46, 47, 66, 0.4));
   border: none;
-  fill: var(--social-icon-white);
+  fill: #fff;
 }
+
 .modal-form-button {
-  align-self: center;
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  display: block;
+  padding: 16px 32px;
+  gap: 10px;
+  border: transparent;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 169px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
