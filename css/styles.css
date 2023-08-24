@@ -727,8 +727,7 @@ link:hover.overlay-text {
 
 .socialmedia-container {
   display: block;
-  margin-left: 120px;
-  margin-right: 80px;
+    margin-right: 80px;
 }
 
 .webstudio-container {
@@ -835,7 +834,7 @@ link:hover.overlay-text {
   width: 24px;
   height: 24px;
   fill: #fff;
-  margin-left: 16px;
+ 
 }
 
 /* Modal windows */
