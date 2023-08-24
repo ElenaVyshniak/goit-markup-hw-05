@@ -750,6 +750,56 @@ link:hover.overlay-text {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Subscribe */
+.footer-subscribe {
+  width: 453px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.footer-subscribe-text {
+  color: var(--white);
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-subscribe-form {
+  display: flex;
+  gap: 24px;
+  border-radius: 4px;
+  align-items: center;
+}
+.footer-form-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--white);
+}
+.footer-form-input {
+  color: var(--white);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding: 8px, 16px;
+  width: 264px;
+  outline: transparent;
+  background-color: transparent;
+  border: 1px solid var(--white);
+  transition: border-color var(--ocean);
+}
+
+.footer-form-input::placeholder {
+}
+.subscribe-button {
+}
+.subscribe-button-img {
+}
+
 /* Modal windows */
 .backdrop.is-hidden {
   opacity: 0;
