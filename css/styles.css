@@ -728,6 +728,7 @@ link:hover.overlay-text {
 .socialmedia-container {
   display: block;
   margin-left: 120px;
+  margin-right: 80px;
 }
 
 .webstudio-container {
@@ -769,6 +770,8 @@ link:hover.overlay-text {
   gap: 24px;
   border-radius: 4px;
   align-items: center;
+  margin-top: 40;
+  margin-left: 189;
 }
 .footer-form-label {
   display: flex;
@@ -780,6 +783,7 @@ link:hover.overlay-text {
   border-radius: 4px;
   border: 1px solid var(--white);
 }
+
 .footer-form-input {
   color: var(--white);
   font-size: 12px;
@@ -787,17 +791,42 @@ link:hover.overlay-text {
   letter-spacing: 0.04em;
   padding: 8px, 16px;
   width: 264px;
+  height: 40px;
+  border-radius: 4px;
+
+  text-align: auto;
   outline: transparent;
   background-color: transparent;
   border: 1px solid var(--white);
   transition: border-color var(--ocean);
 }
 
+.subsckribe-form-input:focus {
+  border-color: var(--active-link-color);
+}
+
 .footer-form-input::placeholder {
+  color: currentColor;
 }
 .subscribe-button {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--iris);
+  color: var(--white);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .subscribe-button-img {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin-left: 16px;
 }
 
 /* Modal windows */
