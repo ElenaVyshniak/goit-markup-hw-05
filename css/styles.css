@@ -252,7 +252,6 @@ button {
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
-  gap: 10px;
   border-radius: 4px;
   background: var(--iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -815,7 +814,6 @@ link:hover.overlay-text {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background: var(--iris);
   color: var(--white);
@@ -833,6 +831,7 @@ link:hover.overlay-text {
   width: 24px;
   height: 24px;
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* Modal windows */
@@ -1036,7 +1035,7 @@ link:hover.overlay-text {
 .modal-form-checkbox:checked + .modal-form-policy > .modal-form-desk {
   background-color: var(--ocean, rgba(46, 47, 66, 0.4));
   border: none;
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 .modal-form-button {
