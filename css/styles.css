@@ -809,7 +809,6 @@ link:hover.overlay-text {
 }
 
 .footer-form-input::placeholder {
-  color: ;
 }
 .subscribe-button {
   display: inline-flex;
@@ -1006,6 +1005,7 @@ link:hover.overlay-text {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: block;
 }
 
 .modal-form-desk-policy {
@@ -1026,6 +1026,7 @@ link:hover.overlay-text {
   justify-content: center;
   margin-right: 8px;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-checkbox:checked + .modal-form-policy > .modal-form-desk {
   background-color: var(--ocean, rgba(46, 47, 66, 0.4));
